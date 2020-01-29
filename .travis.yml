@@ -11,7 +11,7 @@ branches:
     - master
 
 script:
-- build.bat
+- ./build.bat
 
 before_deploy:
 - git config --local user.name "Anton Voloshin"
