@@ -11,6 +11,7 @@ branches:
     - master
 
 script:
+- find /c -name "vcvars*" 2>/dev/null
 - ./build.bat
 
 before_deploy:
