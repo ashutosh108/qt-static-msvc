@@ -30,7 +30,7 @@ deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file:
-  - qt5-5.14-static-ms2017-minimal.zip
+  - qt5.14-static-msvc2017-minimal.zip
   skip_cleanup: true
   overwrite: true
   prerelease: true
