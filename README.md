@@ -40,7 +40,7 @@ end()
 set_target_properties(**YOUR_TARGET_NAME_HERE** PROPERTIES WIN32_EXECUTABLE YES)
 ```
 
-5. Upack the archive
+5. Upack the archive downloaded from [releases](https://github.com/ashutosh108/qt-static-msvc/releases)
 
 ```
 mkdir C:\Qt
@@ -56,7 +56,7 @@ This should create `C:\Qt\5.14-static-msvc` directory
 (in your source dir)
 mkdir build
 cd build
-cmake .. -DQt5_DIR=C:\Qt\\5.14-static-msvc\lib\cmake\Qt5
+cmake .. -DQt5_DIR=C:\Qt\5.14-static-msvc\lib\cmake\Qt5
 cmake --build .
 ```
 
